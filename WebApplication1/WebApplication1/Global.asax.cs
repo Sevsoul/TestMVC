@@ -9,6 +9,8 @@ namespace WebApplication1
     {
         protected void Application_Start()
         {
+            //Soul Guo 2017-03-11 13:09:59
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
